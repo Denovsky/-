@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/greet"
+        android:layout_width="303dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="112dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Ent_log_pass"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="33sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="256dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/white_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="256dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColorHint="@color/white_gray"
+        android:textColor="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/blue_button"
+        android:text="Enter"
+        android:textColor="@color/white"
+        android:shadowColor="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+</LinearLayout>

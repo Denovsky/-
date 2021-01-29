@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/take_of_balance"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Введите сумму снятия:"
+        android:inputType="number"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/white_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/take_of"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="152dp"
+        android:backgroundTint="@color/blue_button"
+        android:shadowColor="@color/black"
+        android:textColor="@color/white"
+        android:text="снять"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/take_of_balance" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="38dp"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/white"
+        android:text="выход" />
+
+
+</LinearLayout>

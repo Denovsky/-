@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Ent_log_pass"><br> Enter your login \n </br><br> and password \n </br></string>
+    <string name="your_account"></string>
+    <string name="convert"><br> конвертировать \n </br><br> валюты </br></string>
+</resources>
